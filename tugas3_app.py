@@ -1,11 +1,15 @@
 import streamlit as st
-st.write(
-  "Helo word 1.Pengumpulan data
-   https://archive.ics.uci.edu/dataset/45/heart+disease
-  2.Menelaah Data
 
-  import pandas as pd
-  import re
-  import numpy as np
-  import itertools"
-)
+def main():
+    st.title("Aplikasi Streamlit di VSCode")
+    
+    long_paragraph = (
+        "Ini adalah paragraf panjang yang berisi banyak teks. "
+        "Anda dapat menambahkan sebanyak yang Anda inginkan "
+        "untuk menampilkan teks dalam satu paragraf."
+    )
+    
+    st.write(long_paragraph)
+
+if __name__ == "__main__":
+    main()
